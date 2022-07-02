@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+ $(document).ready(function() {
+  $('#mainMenuBox').on('mouseenter',function(){
+						$('#subMenuBox').css('visibility', 'visible');
+								});
+});
+	 

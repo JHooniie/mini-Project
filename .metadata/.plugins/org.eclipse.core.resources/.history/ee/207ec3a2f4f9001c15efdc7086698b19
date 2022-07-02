@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#slideShow {
+	position:relative;
+	background-color:#f2e9e7;
+	height:520px;
+	line-height:520px;
+}
+
+#slideBox{
+	position:relative;
+	width:1280px;
+	height:480px;
+	text-align:center;
+	overflow:hidden;
+}
+
+#slidePanel {
+	position:relative;
+	width:6400px;	/* 이미지 5개 옆으로 나란히 */
+	height:480px;
+}
+
+#slidePanel div{
+	float:left;
+	width:1280px;
+	height:480px;
+}

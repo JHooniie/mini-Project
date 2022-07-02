@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+ $(document).ready(function() {
+  $('#menuBox').on('mouseenter',function(){
+						$('#subMenuBox').css('visibility', 'visible');
+					},
+					function(){	// 마우스 땠을 때 슬라이드 업
+						$('#subMenuBox').css('visibility', 'hidden');
+											
+					}
+					);
+});

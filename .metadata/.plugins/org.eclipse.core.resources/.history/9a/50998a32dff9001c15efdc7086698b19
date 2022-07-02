@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+div {
+	border:solid black 2px;
+}
+
+ul {
+	type:none;
+}
+/*******************탑 박스***********************/
+#top-headBox{
+	width:100%;
+	height:70px;
+	margin:0;
+}
+/********************메뉴박스***********************/
+#menuBox{
+	position:relative;
+	width:80%;
+	height:350px;
+	margin:0 auto;
+}
+
+#mainMenuBox{
+	position:relative;
+	width:100%;
+	height:120px;
+	margin:0;
+}
+
+#subMenuBox{
+	position:relative;
+	width:100%;
+	height:220px;
+	margin:0;
+	display:none;
+	
+}
+
+/*******************섹션*************************/
+#slideBox{
+	position:relative;
+	width:100%;
+	height:420px;
+	margin:0;
+}
+
+#feed{
+	position:relative;
+	width:100%;
+	height:700px;
+	margin:0;
+}
+
+/*****************footer************************/
+
+#ent-info{
+	position:relative;
+	width:100%;
+	height:150px;
+	margin:0;
+}
+
+
+
+
+
+
+

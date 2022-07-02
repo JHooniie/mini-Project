@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+*{
+		}
+		
+wrap {
+		position:relative;
+		margin:0;
+		}

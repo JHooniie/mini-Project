@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+ $(document).ready(function() {
+  $('#mainMenuBox').on('mousehover',function(){
+						$('#subMenuBox').css('visibility', 'visible');
+						},
+						function(){
+						$('#subMenuBox').css('visibility', 'hidden');
+						});
+});
+	 

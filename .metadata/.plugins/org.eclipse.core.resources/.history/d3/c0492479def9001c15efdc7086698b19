@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+ $(document).ready(function() {
+  $('#menuBox').hover(
+					function(){	// 마우스 올렸을 때 슬라이드 다운
+						$('#subMenuBox').slideDown(1000);
+					},
+					function(){	// 마우스 땠을 때 슬라이드 업
+						$('#subMenuBox').slideUp(1000);
+											
+					});
+});
