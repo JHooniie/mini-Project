@@ -1861,3 +1861,10 @@
 0:0:0:0:0:0:0:1 - - [03/Jul/2022:18:39:06 +0900] "GET /Project-UIUX/js/mainPage/subMenu.js HTTP/1.1" 200 241
 0:0:0:0:0:0:0:1 - - [03/Jul/2022:18:39:06 +0900] "GET /Project-UIUX/js/mainPage/slideShow.js HTTP/1.1" 200 268
 0:0:0:0:0:0:0:1 - - [03/Jul/2022:18:39:06 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+127.0.0.1 - - [03/Jul/2022:18:41:00 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [03/Jul/2022:18:41:01 +0900] "GET /Project-UIUX/index.jsp HTTP/1.1" 200 4520
+0:0:0:0:0:0:0:1 - - [03/Jul/2022:18:41:01 +0900] "GET /Project-UIUX/css/mainPage/community.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Jul/2022:18:41:01 +0900] "GET /Project-UIUX/css/mainPage/notice.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Jul/2022:18:41:01 +0900] "GET /Project-UIUX/css/mainPage/poster.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Jul/2022:18:41:01 +0900] "GET /Project-UIUX/css/index.css HTTP/1.1" 200 1640
+0:0:0:0:0:0:0:1 - - [03/Jul/2022:18:41:01 +0900] "GET /favicon.ico HTTP/1.1" 404 818

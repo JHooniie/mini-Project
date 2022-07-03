@@ -18,6 +18,10 @@ ul {
 	background-color:#ededdd;
 }
 
+#top-headBox div {
+	border:solid black 2px;
+}
+
 #top-headLogo{
 	position:realative;
 	float:left;
