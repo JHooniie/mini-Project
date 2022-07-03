@@ -24,6 +24,7 @@
 	margin:0 auto;
 	padding:0;
 	text-align:center;
+	left:3%;
 }
 
 /********************커뮤니티 보드********************/
@@ -36,7 +37,6 @@
 	padding:0;
 	text-align:center;
 	box-sizing:border-box;
-	left:3%;
 }
 
 #SNSReview{
@@ -177,7 +177,6 @@
 	top:0; 
 	left:0;
 	background-color:white;
-	left:3%;
 }
 
 
