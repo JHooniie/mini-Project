@@ -10,6 +10,9 @@
 		<link rel="stylesheet" type="text/css" href="css/menu.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<link rel="stylesheet" type="text/css" href="css/mainPage/slideShow.css">
+		<link rel="stylesheet" type="text/css" href="css/mainPage/poster.css">
+		<link rel="stylesheet" type="text/css" href="css/mainPage/notice.css">
+		<link rel="stylesheet" type="text/css" href="css/mainPage/community.css">
 		<link rel="stylesheet" type="text/css" href="css/mainPage/feed.css">
 		<script src="js/jquery-3.6.0.min.js"></script>
 		<script src="js/mainPage/subMenu.js"></script>
@@ -19,8 +22,18 @@
 	<div id="wrap">
 	<header>
 		<div id="top-headBox">
-			<div>
-			헤더
+			<div id="top-headLogo">
+			<h3>로고</h3>
+			</div>
+			<div id="top-headSearchBar">
+				<form>
+					<input type="text" name="mainSearch" value="search...">
+					<input type="submit" name="mainSearchBtn" value="검색">
+				</form>
+			</div>
+			<div id="top-headLoginSignUp">
+			<a href="#">회원가입 </a>/
+			<a href="#">로그인 &nbsp;</a>
 			</div>
 	 	</div>
 	</header>
@@ -46,7 +59,91 @@
 			</div> 
 	 	</div>
 	 	</article>
-	 	<article id="feed">
+	 	<article id="poster">
+	 		<h2 id="posterNameBox"> 포스터</h2> 
+		<div id="posterBox">
+			<div class="posterTemp">1
+				<div class="posterImg"></div>
+				<div class="posterExplain">5</div>
+			</div>
+			<div class="posterTemp">2
+				<div class="posterImg"></div>
+				<div class="posterExplain">6</div>
+			</div>
+			<div class="posterTemp">3
+				<div class="posterImg"></div>
+				<div class="posterExplain">7</div>
+			</div>
+			<div class="posterTemp">4
+				<div class="posterImg"></div>
+				<div class="posterExplain">8</div>
+			</div>
+	 	</div>
+	 	</article>
+	 	<article id="notice">
+			<div id="noticeBox">
+				<div id="mainNotice" class="noticeBoxCols">
+					<h3>&#60;공지사항&#62;</h3>
+					<a href="#">공지사항 공지사항  </a><br>
+					<a href="#">공지사항 공지사항  </a><br>
+					<a href="#">공지사항 공지사항  </a><br>
+					<a href="#">공지사항 공지사항  </a><br>
+					<a href="#">공지사항 공지사항  </a><br>
+				</div>
+					<div id="searchRankingNotice" class="noticeBoxCols">
+					실시간 행사 검색 순위
+				</div>
+					<div id="eventNotice" class="noticeBoxCols">
+					이벤트 칸
+				</div>
+		 	</div>
+	 	</article>
+	 	<article id="community">
+	 		<h2 id="communityNameBox"> 커뮤니티</h2> 
+				<div id="communityBox">
+					<div id="communityHref">
+						<div id="SNSReview" class="communityBoxCols">
+						인스타 or 블로그 리뷰
+						</div>
+						<div id="accompanyBoard" class="communityBoxCols">
+						실시간 행사 검색 순위
+						</div>
+						<div id="communityBoard" class="communityBoxCols">
+						이벤트 칸
+						</div>
+					</div>
+					<div id="communitySNSHashTag">
+						<span>&#35;워터밤</span>
+						<span>&#35;에버랜드</span>
+						<span>&#35;인천_펜타포드_락_페스티벌</span>
+			 		</div>
+			 		<div id="communityAmenity">
+						숙소 연계 이벤트 배너
+			 		</div>
+			 		<div id="communityAd">
+						커뮤니티 광고 이미지
+			 		</div>
+			 		<div id="communityAllianceCard">
+						카드사 제휴
+			 		</div>
+			 		<div id="communityPublic">
+						<div class="communityPublicCols">
+						배너1
+						</div>
+						<div class="communityPublicCols">
+						배너2
+						</div>
+						<div class="communityPublicCols">
+						배너3
+						</div>
+						<div class="communityPublicCols">
+						배너4
+						</div>
+			 		</div>
+			 	</div>
+			 	
+	 	</article>
+	 	<!-- <article id="feed">
 	 		<h2 id="feedNameBox"> 피드</h2> 
 		<div id="feedBox">
 			<div>1</div>
@@ -56,10 +153,9 @@
 			<div>5</div>
 			<div>6</div>
 	 	</div>
-	 	</article>
-	 	
+	 	</article> -->
 	 </section>
-	 <footer>
+	 <footer id="bottomBox">
 	 	<div id="ent-info">
 			<div>
 			기업정보

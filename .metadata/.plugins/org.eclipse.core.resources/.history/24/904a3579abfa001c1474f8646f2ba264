@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+#community{
+	position:relative;
+	height:800px;
+	line-height:800px;
+	margin:10px 0 0 0;
+	background-color:rgb(249, 251, 227);
+}
+
+#community h2 {
+	height:70px;
+	line-height:70px;
+	margin:0 auto;
+	background-color:#eeeeec;
+}
+
+
+#communityBox {
+	position:relative;
+	width:100%;
+	height:70%;
+	line-height:400px;;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+}
+
+#SNSReview{
+	position:relative;
+	width:22%;
+	height:100%;
+	line-height:50px;
+	border:solid black 2px;
+	margin:10px 10px 15px 10px;
+	top:0; 
+}
+
+
+
+
+#accompanyBoard{
+	position:relative;
+	width:26%;
+	height:100%;
+	line-height:300%;
+	border:solid black 2px;
+	margin:10px 10px 15px 10px;
+	top:0; 
+	left:0;
+	overflow:hidden;
+}
+
+
+#communityBoard{
+	position:relative;
+	width:43%;
+	height:100%;
+	line-height:50px;
+	border:solid black 2px;
+	margin:10px 10px 15px 10px;
+	top:0; 
+	left:0;
+}
+
+
+.communityBoxCols {
+	float:left;	
+}
+
+
+
+.communityBoxCols:hover {
+	color:green;
+	opacity:0.5;
+	cursor:pointer;
+}
+
+#communitySNSHashTag{
+	position:relative;
+	width:100%;
+	height:13%;
+	line-height:100%;
+	bottom:10px;
+	border:solid black 2px;
+}

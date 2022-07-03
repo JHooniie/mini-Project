@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+#poster{
+	position:relative;
+	height:1000px;
+	line-height:1000px;
+	margin:0;
+	background-color:#eaf4ec;
+}
+
+#poster h2 {
+	height:70px;
+	line-height:70px;
+	margin:0 auto;
+}
+
+#posterBox {
+	position:relative;
+	width:100%;
+	height:1000px;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+}
+
+
+.posterTemp{
+	position:relative;
+	float:left;
+	width:30%;
+	height:350px;
+	line-height:50px;
+	border:solid black 2px;
+	margin:10px 10px 15px 10px;
+	top:0; 
+}
+
+.posterImg {
+	position:absolute;
+	display:block;
+	width:90%;
+	height:60%;
+	border:solid black 2px;
+	margin:0;
+	padding:0;
+	top:5px;
+	left:5%;
+}
+
+.posterExplain{
+	position:absolute;
+	display:block;
+	width:90%;
+	height:30%;
+	border:solid black 2px;
+	margin:0;
+	padding:0;
+	bottom:5px;
+	left:5%;
+}
+
+.posterTemp:hover {
+	color:green;
+	opacity:0.5;
+	cursor:pointer;
+}
