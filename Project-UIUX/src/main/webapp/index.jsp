@@ -15,6 +15,11 @@
 		<link rel="stylesheet" type="text/css" href="css/mainPage/community.css">
 		<link rel="stylesheet" type="text/css" href="css/mainPage/feed.css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<style type="text/css">
+
+
+
+		</style>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 		<script src="js/jquery-3.6.0.min.js"></script>
 		<script src="js/mainPage/subMenu.js"></script>
@@ -24,28 +29,28 @@
 	<div id="wrap">
 	<header>
 	<!-- top navBar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between bg-$blue-100">
+		<div class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between bg-$blue-100">
 		    <div class="container-fluid"  style="background-color:#CFE2FF">
 		      <a class="navbar-brand col-1" href="#">Navbar</a>
 		      <form class="d-flex col-6">
-		        <input class="form-control me-2 rounded-top border-0 border-bottom border-dark" style="background-color:#CFE2FF" type="search" placeholder="Search" aria-label="Search">
+		        <input class="form-control me-2 rounded-0 rounded-top border-0 border-bottom border-dark" style="background-color:#CFE2FF" type="search" placeholder="Search" aria-label="Search">
 		        <button class="btn btn-outline-success" type="submit">Search</button>
 		      </form>
-		        <ul class="navbar-nav me-0 ">
+		        <ul class="navbar-nav me-5 ">
 		          <li class="nav-item dropdown">
 		            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 		              Dropdown
 		            </a>
-		            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		            <ul class="dropdown-menu me-7" aria-labelledby="navbarDropdown" style="right:1%">
 		              <li><a class="dropdown-item" href="#">Action</a></li>
 		              <li><a class="dropdown-item" href="#">Another action</a></li>
 		              <li><hr class="dropdown-divider"></li>
-		              <li><a class="dropdown-item" href="#">Something else here</a></li>
+		              <li><a class="dropdown-item" href="#">Something else</a></li>
 		            </ul>
 		          </li>
 		        </ul>
 		    </div>
-		  </nav>
+		  </div>
 		  <!-- 잘못된 div 및 col 사용으로 인한 배열 정리 실패 -->
 <!-- 		<nav class="navbar bg-light">
 		  <div class="d-flex flex-row justify-content-between">
@@ -152,7 +157,22 @@
 	 	</div> -->
 	 	</article>
 	 	<article id="poster">
-	 		<h2 id="posterNameBox"> 포스터</h2> 
+	 		<div class="container">
+			  <div class="posterBox">
+			    <div class="carrousel">
+			      <figure class="shadow"><img src="https://images.pexels.com/photos/758733/pexels-photo-758733.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
+			      <figure class="shadow"><img src="https://images.pexels.com/photos/21261/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
+			      <figure class="shadow"><img src="https://images.pexels.com/photos/567973/pexels-photo-567973.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
+			      <figure class="shadow"><img src="https://images.pexels.com/photos/776653/pexels-photo-776653.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
+			      <figure class="shadow"><img src="https://images.pexels.com/photos/54630/japanese-cherry-trees-flowers-spring-japanese-flowering-cherry-54630.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
+			      <figure class="shadow"><img src="https://images.pexels.com/photos/131046/pexels-photo-131046.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
+			      <figure class="shadow"><img src="https://images.pexels.com/photos/302515/pexels-photo-302515.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
+			      <figure class="shadow"><img src="https://images.pexels.com/photos/301682/pexels-photo-301682.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
+			      <figure class="shadow"><img src="https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
+			    </div>
+			  </div>
+			</div>
+	 		<!-- <h2 id="posterNameBox"> 포스터</h2> 
 		<div id="posterBox">
 			<div class="posterTemp">1
 				<div class="posterImg"></div>
@@ -170,7 +190,7 @@
 				<div class="posterImg"></div>
 				<div class="posterExplain">8</div>
 			</div>
-	 	</div>
+	 	</div> -->
 	 	</article>
 	 	<article id="notice">
 			<div id="noticeBox">
