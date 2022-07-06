@@ -864,3 +864,10 @@
 0:0:0:0:0:0:0:1 - - [06/Jul/2022:20:33:33 +0900] "GET /Project-UIUX/image/myPage/sea.jpg HTTP/1.1" 200 52503
 0:0:0:0:0:0:0:1 - - [06/Jul/2022:20:33:33 +0900] "GET /Project-UIUX/image/myPage/lighthouse.jpg HTTP/1.1" 200 40745
 0:0:0:0:0:0:0:1 - - [06/Jul/2022:20:33:33 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+127.0.0.1 - - [06/Jul/2022:21:58:30 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [06/Jul/2022:21:58:30 +0900] "GET /Project-UIUX/html/myPage_Main.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jul/2022:21:58:30 +0900] "GET /Project-UIUX/css/myPage/myPage_Main.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jul/2022:21:58:30 +0900] "GET /Project-UIUX/image/myPage/lighthouse.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jul/2022:21:58:30 +0900] "GET /Project-UIUX/image/myPage/road.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jul/2022:21:58:30 +0900] "GET /Project-UIUX/image/myPage/sea.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jul/2022:21:58:30 +0900] "GET /favicon.ico HTTP/1.1" 404 818
