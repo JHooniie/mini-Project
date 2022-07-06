@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>mypage_favorite</title>
+
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link rel="stylesheet" type="text/css" href="../css/menu.css">
+<link rel="stylesheet" type="text/css" href="../css/index.css">
+<link rel="stylesheet" type="text/css"
+	href="../css/myPage/myPage_Main.css">
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/mainPage/subMenu.js"></script>
+<script src="../js/mainPage/slideShow.js"></script>
+
+</head>
+<body>
+
+	<div id="wrap">
+
+		<header>
+
+			<div id="top-headBox">
+
+				<div id="top-headLogo">
+					<h3>로고</h3>
+				</div>
+
+				<div id="top-headSearchBar">
+					<form>
+						<input type="text" name="mainSearch" value="search..."> <input
+							type="submit" name="mainSearchBtn" value="검색">
+					</form>
+				</div>
+
+				<div id="top-headLoginSignUp">
+					<a href="#">회원가입 </a>/ <a href="#">로그인 &nbsp;</a>
+				</div>
+
+			</div>
+
+		</header>
+
+		<nav>
+			<div id="menuBox">
+				<div id="mainMenuBox">메인메뉴</div>
+				<div id="subMenuBox">서브메뉴</div>
+			</div>
+		</nav>
+
+		<!-- 헤더 끝 -->
+
+
+		<div class="container">
+			<!-- 스타일 적용 -->
+
+			<div class="content">
+				<!-- 사이드바 + 콘텐츠 -->
+
+				<nav id="content_SideMenu">
+					<h3>사이드 메뉴</h3>
+
+					<div class="sideMenu">1</div>
+					<div class="sideMenu">2</div>
+					<div class="sideMenu">3</div>
+					<div class="sideMenu">4</div>
+
+				</nav>
+				<!-- 마이페이지 공통으로 들어갈 사이드메뉴, 추후 수정 -->
+
+
+				<div id="myPrivacy">
+					<h3>개인 정보</h3>
+					<div id="privacyBox">
+						<div id="profile">
+						프로필
+						</div>
+						<div id="moreInfo">
+							<div>
+							아이디
+							</div>
+						</div>
+
+					
+					</div>
+					<div id ="my_favorite_fev">
+						<figure class="favorite_fev">
+						<img src="../image/myPage/lighthouse.jpg">
+						<figcaption>결제했던 행사 목록</figcaption>
+						</figure>
+	
+						<figure class="favorite_fev">
+						<img src="../image/myPage/road.jpg">
+						<figcaption>관심 행사 목록</figcaption>
+						</figure>
+	
+						<figure class="favorite_fev">
+						<img src="../image/myPage/sea.jpg">
+						<figcaption>작성한 게시글</figcaption>
+						</figure>
+					</div>
+					
+
+
+				</div>
+				<!-- 관심 행사 목록 끝 -->
+
+			</div>
+			<!-- content flex용 -->
+
+
+
+			<div id="banner_ad">( 배너 광고 )</div>
+			<!-- 하단 배너 광고 끝 -->
+
+
+		</div>
+		<!-- container 끝 -->
+
+
+
+
+
+		<footer id="bottomBox">
+
+			<div id="ent-info">
+				<div>기업정보</div>
+			</div>
+
+		</footer>
+		<!-- 푸터 끝 -->
+
+
+
+
+
+	</div>
+	<!-- wrap 끝 -->
+</body>
+</html>
