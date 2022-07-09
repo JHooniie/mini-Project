@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-img {
+.fev_poster img {
 	width: 200px;
 	height: 350px;
 	object-fit: contain;
@@ -19,8 +19,6 @@ img {
 }
 
 #content_SideMenu {
-	border: 1px solid gray;
-	/*  */
 	margin-top: 40px;
 	padding: 30px;
 }
