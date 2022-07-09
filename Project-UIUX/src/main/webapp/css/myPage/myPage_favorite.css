@@ -18,20 +18,19 @@ img {
 	justify-content: center;
 }
 
-.content_SideMenu {
-	background: linear-gradient(#E6E6FA, #FFFFFF);
-	/*  */
+#content_SideMenu {
+	border: 1px solid gray;
 	/*  */
 	margin-top: 40px;
-	padding: 30px 10px 10px 0px;
+	padding: 30px;
 }
 
 #content_favorite {
-	background: linear-gradient(#E6E6FA, #FFFFFF);
+	border: 1px solid gray;
 	/*  */
 	position: relative;
 	/*  */
-	margin: 40px 40px 20px 20px;
+	margin: 40px 0px 20px 20px;
 	padding: 10px;
 }
 
@@ -47,13 +46,13 @@ img {
 }
 
 #favorite_fev {
-	/*  */
-	width: 800px;
-	margin: 10px;
-	/*  */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	border: 1px solid gray;
+	/*  */
+	width: 700px;
+	margin: 10px;
 }
 
 .fev_account {
