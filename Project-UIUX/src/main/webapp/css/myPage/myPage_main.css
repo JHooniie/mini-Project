@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: Georgia, "Malgun Gothic", serif;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#content_SideMenu {
+	margin-top: 40px;
+	padding: 30px;
+}
+
+#myPrivacy {
+	border: 1px solid gray;
+	/*  */
+	display: flex;
+	flex-direction: column;
+	flex: 60%;
+	margin: 40px 40px 20px 20px;
+	padding: 30px;
+	display: flex;
+}
+
+#privacyBox {
+	background-color: #FFFFFF;
+	border: 1px solid gray;
+	/*  */
+	flex: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+#profile {
+	flex: 50%;
+	padding: 20px;
+	margin: 10px;
+}
+
+.card-body {
+	padding: 10px;
+}
+
+#moreInfo {
+	flex: 50%;
+	padding: 20px;
+	margin: 10px;
+}
+
+#my_favorite_fev {
+	background-color: #FFFFFF;
+	/*  */
+	display: flex;
+	flex: 100%;
+	margin: 10px;
+	padding: 10px;
+}
+
+.favorite_fev {
+	padding: 10px;
+	flex: 30%;
+}
+
+#profile {
+	display: inline-block;
+	text-align: center;
+}
+
+.profile img {
+	width: 70%;
+}
+
+.favorite_fev img {
+	width: 80%;
+}
+
+.favorite_fev:hover {
+	opacity: 0.8;
+}
+
+#banner_ad {
+	border: solid 1px blue;
+	align-self: center;
+	margin: 50px;
+}

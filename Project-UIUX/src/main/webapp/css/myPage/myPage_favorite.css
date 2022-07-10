@@ -1,38 +1,61 @@
 @charset "UTF-8";
 
+.fev_poster img {
+	width: 200px;
+	height: 350px;
+	object-fit: contain;
+}
+
 .container {
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: center;
+	font-family: Georgia, "Malgun Gothic", serif;
 }
 
 .content {
 	display: flex;
-	flex-flow: row wrap;
+	flex-direction: row;
 	justify-content: center;
 }
 
 #content_SideMenu {
-	border: solid 1px green;
-	/*  */
-	flex-basis: 10%;
-	margin: 20px;
 	margin-top: 40px;
-	margin-left: 40px;
+	padding: 30px;
 }
 
 #content_favorite {
-	border: solid 1px red;
-	background-color: skyblue;
+	border: 1px solid gray;
 	/*  */
-	flex-basis: 60%;
-	margin: 20px;
-	margin-top: 40px;
-	margin-right: 40px;
+	position: relative;
+	/*  */
+	margin: 40px 0px 20px 20px;
 	padding: 10px;
+}
+
+#fav_title {
+	margin: 30px;
+}
+
+.favorite_box {
+	background-color: #FFFFFF;
 	/*  */
+	margin: 10px;
+	padding: 20px;
+}
+
+#favorite_fev {
 	display: flex;
-	flex-flow: column wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	border: 1px solid gray;
+	/*  */
+	width: 700px;
+	margin: 10px;
+}
+
+.fev_account {
+ align-self: center;
 }
 
 .favorite_fev {
