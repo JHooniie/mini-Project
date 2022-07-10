@@ -7,7 +7,8 @@
 }
 
 .container {
-	position: relative;
+	display: flex;
+	flex-flow: column wrap;
 	justify-content: center;
 	font-family: Georgia, "Malgun Gothic", serif;
 }
@@ -54,36 +55,19 @@
 }
 
 .fev_account {
-	align-self: center;
+ align-self: center;
 }
 
-.fav_button {
-	align-self: center;
-}
-
-.fav_button input[type=submit] {
-	line-height: 30px;
-	font-size: 15px;
-	border: none;
-	border-radius: 4px;
-	padding: 5px;
-	margin: 3px;
+.favorite_fev {
+	border: solid 1px red;
+	background-color: white;
 	/*  */
-	opacity: 0.6;
-	transition: 0.3s;
-}
-
-.fav_button input[type=submit]:hover {
-	opacity: 1;
-}
-
-#fev_poster:hover {
-	opacity: 0.5;
+	margin: 10px;
+	padding: 10px;
 }
 
 #banner_ad {
 	border: solid 1px blue;
-	/*  */
 	align-self: center;
 	margin: 50px;
 }

@@ -24,6 +24,7 @@
 		<script src="js/jquery-3.6.0.min.js"></script>
 		<script src="js/mainPage/subMenu.js"></script>
 		<script src="js/mainPage/slideShow.js"></script>
+		<script src="js/mainPage/poster.js"></script>
 	</head>
 	<body>
 	<div id="wrap">
@@ -157,22 +158,20 @@
 	 	</div> -->
 	 	</article>
 	 	<article id="poster">
-	 		<div class="container">
-			  <div class="posterBox">
-			    <div class="carrousel">
-			      <figure class="shadow"><img src="https://images.pexels.com/photos/758733/pexels-photo-758733.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-			      <figure class="shadow"><img src="https://images.pexels.com/photos/21261/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-			      <figure class="shadow"><img src="https://images.pexels.com/photos/567973/pexels-photo-567973.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-			      <figure class="shadow"><img src="https://images.pexels.com/photos/776653/pexels-photo-776653.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-			      <figure class="shadow"><img src="https://images.pexels.com/photos/54630/japanese-cherry-trees-flowers-spring-japanese-flowering-cherry-54630.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-			      <figure class="shadow"><img src="https://images.pexels.com/photos/131046/pexels-photo-131046.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-			      <figure class="shadow"><img src="https://images.pexels.com/photos/302515/pexels-photo-302515.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-			      <figure class="shadow"><img src="https://images.pexels.com/photos/301682/pexels-photo-301682.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-			      <figure class="shadow"><img src="https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" /></figure>
-			    </div>
+	 		<!-- <div class="postercontainer">
+			  <div id="carousel">
+			    <figure data-number="1">1</figure>
+			    <figure data-number="2">2</figure>
+			    <figure data-number="3">3</figure>
+			    <figure data-number="4">4</figure>
+			    <figure data-number="5">5</figure>
+			    <figure data-number="6">6</figure>
+			    <figure data-number="7">7</figure>
+			    <figure data-number="8">8</figure>
+			    <figure data-number="9">9</figure>
 			  </div>
-			</div>
-	 		<!-- <h2 id="posterNameBox"> 포스터</h2> 
+			 </div> -->
+	 		<h2 id="posterNameBox"> 포스터</h2> 
 		<div id="posterBox">
 			<div class="posterTemp">1
 				<div class="posterImg"></div>
@@ -190,7 +189,7 @@
 				<div class="posterImg"></div>
 				<div class="posterExplain">8</div>
 			</div>
-	 	</div> -->
+	 	</div>
 	 	</article>
 	 	<article id="notice">
 			<div id="noticeBox">
